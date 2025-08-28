@@ -9,3 +9,8 @@ image = Image.open('Travis meme.png')
 
 st.image(image, caption='interfaces multimodales')
 
+
+
+texto = st.text_input('Escrible algo', 'Este es mi texto')
+st.write('El texto escrito es', texto)
+st.subheader("Ahora usemos 2 columnas")
