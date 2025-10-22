@@ -1,16 +1,18 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Mi primera app")
+st.title("🔥 Mi primera app interactiva 🔥")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces")
-st.write("Facilmente puedo realizar back-end y front-end")
+st.header("Aquí empieza mi aventura con las interfaces multimodales 😎")
+
+st.write(
+    "En este espacio empiezo a crear mis propias apps, mezclando diseño, lógica y un poco de flow. "
+    "Aquí puedo conectar el **back-end** con el **front-end** sin complicarme demasiado."
+)
+
 image = Image.open('Travis meme.png')
+st.image(image, caption='Un toque de humor para las interfaces 😄')
 
-st.image(image, caption='interfaces multimodales')
-
-
-
-texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es', texto)
-st.subheader("Ahora usemos 2 columnas")
+texto = st.text_input('💬 Escribe algo aquí:', '¡Hola mundo, soy mi propia interfaz!')
+st.write('🪄 Tu texto dice:', texto)
+st.subheader("✨ Ahora juguemos con dos columnas y sigamos explorando ✨")
